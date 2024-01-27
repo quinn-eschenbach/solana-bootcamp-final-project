@@ -1,7 +1,7 @@
 # Restaurant Review on Solana
 This is the final project for the in rise solana bootcamp
 
-**LIVE WEBSITE**
+👉 Visit the [**LIVE WEBSITE**](https://solana-bootcamp-final-project.vercel.app/)
 
 ## Overview
 This solana dapp provides gives user the opportunity to publish their restaurant reviews on the solana blockchain.
@@ -15,7 +15,7 @@ They can share and update their reviews and see other users reviews.
 
 ## Getting Started
 Follow these steps to set up the project locally.
-Alternativly check out the deployed version **here**
+Alternativly check out the deployed version [**here**](https://solana-bootcamp-final-project.vercel.app/)
 
 ### Prerequisites
 1. Node.js: Ensure Node.js is installed. Download it from [nodejs.org](https://nodejs.org/en).
@@ -36,7 +36,7 @@ npm install
 5. Connect your wallet to devnet on the bottom left
 6. Fund the wallets you want to use for testing using the [faucet](https://faucet.solana.com/) or `solana airdrop 1` in the solpg playground
 7. Build and deploy
-8. Copy the "Program ID" and replace the `REVIEW_PROGRAM_ID` in `/app/page.tsx` with it
+8. Copy the "Program ID" and replace the `REVIEW_PROGRAM_ID` in `/src/programmId.tsx` with it
 
 ### Usage
 1. Start development server
