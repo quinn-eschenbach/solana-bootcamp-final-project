@@ -4,12 +4,11 @@ import ReviewCard from "@/components/ReviewCard";
 import { ReviewCardSkeleton } from "@/components/ReviewCardSkeleton";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
+import { REVIEW_PROGRAM_ID } from "@/programmId";
 import { fetchReviews } from "@/util/fetchReviews";
 import * as web3 from "@solana/web3.js";
 import { useMemo, useState } from "react";
 import useSWR from "swr";
-
-export const REVIEW_PROGRAM_ID = "HCNE5RDkU7gnicNygNkNwbMFJkQVr8PQqMn8DzpeJjnN";
 
 export default function Home() {
   const [selectedLocations, setSelectedLocations] = useState<string[]>([]);

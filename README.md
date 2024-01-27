@@ -51,7 +51,7 @@ npm run dev
 This dapp is build using nextjs. It provides a beautiful, responsive, blazingly fast and food themed UI to interact with the program.
 
 Technologies used:
-- **NextJS**: Next 13 and the app router proivde a smooth user experience
+- **NextJS**: Next 14 and the app router proivde a smooth user experience
 - **Shadcn/ui** is used for beautiful and accessible components
 - **useSwr** used for data fetching
 - **@solana** to interact with the solana blockchain

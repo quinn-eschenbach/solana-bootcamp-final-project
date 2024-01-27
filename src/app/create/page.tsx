@@ -1,10 +1,10 @@
 "use client";
 import ReviewForm, { ReviewSchemaType } from "@/components/ReviewForm";
 import { CREATE_REVIEW, Review } from "@/models/Review";
+import { REVIEW_PROGRAM_ID } from "@/programmId";
 import { useWallet } from "@solana/wallet-adapter-react";
 import * as web3 from "@solana/web3.js";
 import { toast } from "sonner";
-import { REVIEW_PROGRAM_ID } from "../page";
 
 export default function CreatePage() {
   const connection = new web3.Connection(web3.clusterApiUrl("devnet"));

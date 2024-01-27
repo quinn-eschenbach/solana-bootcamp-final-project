@@ -1,7 +1,7 @@
 "use client";
-import { REVIEW_PROGRAM_ID } from "@/app/page";
 import ReviewForm, { ReviewSchemaType } from "@/components/ReviewForm";
 import { Review, UPDATE_REVIEW } from "@/models/Review";
+import { REVIEW_PROGRAM_ID } from "@/programmId";
 import { fetchReview } from "@/util/fetchReviews";
 import { useWallet } from "@solana/wallet-adapter-react";
 import * as web3 from "@solana/web3.js";
